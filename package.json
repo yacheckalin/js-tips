@@ -4,7 +4,7 @@
   "description": "javascript tips",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/yacheckalin/js-tips/issues"
   },
-  "homepage": "https://github.com/yacheckalin/js-tips#readme"
+  "homepage": "https://github.com/yacheckalin/js-tips#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
+    "regenerator-runtime": "^0.13.5"
+  }
 }
