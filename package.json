@@ -1,0 +1,23 @@
+{
+  "name": "js-tips",
+  "version": "1.0.0",
+  "description": "javascript tips",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacheckalin/js-tips.git"
+  },
+  "keywords": [
+    "javascript",
+    "tips"
+  ],
+  "author": "Yaroslav Chekalin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yacheckalin/js-tips/issues"
+  },
+  "homepage": "https://github.com/yacheckalin/js-tips#readme"
+}
