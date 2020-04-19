@@ -19,3 +19,6 @@ export const min3 = (arr) => {
   arr.forEach((item) => (min = min > item ? item : min));
   return min;
 };
+
+export const avg = (arr) =>
+  arr.reduce((sum, item) => sum + item, 0) / arr.length;
