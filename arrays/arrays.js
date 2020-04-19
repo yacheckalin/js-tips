@@ -28,3 +28,15 @@ export const countTotalOddAndEven = (arr) => {
 
 export const countTotalNumberOfNegativeElements = (arr) =>
   arr.filter((item) => item < 0).reduce((sum, item) => sum + item);
+
+export const countFrequenceOfEachElement = (arr) => {
+  let checkMap = new Map();
+  for (const item of arr) {
+    if (!checkMap.has(item)) {
+      checkMap.set(item, 1);
+    } else {
+      checkMap.set(item, checkMap.get(item) + 1);
+    }
+  }
+  return checkMap;
+};

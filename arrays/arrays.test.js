@@ -3,6 +3,7 @@ import {
   findSecondLargestElement,
   countTotalOddAndEven,
   countTotalNumberOfNegativeElements,
+  countFrequenceOfEachElement,
 } from "./arrays";
 
 const data = [-1, 2, 3, 4, -6, -4, 0, 2];
@@ -25,4 +26,15 @@ it("check countTotalNumberOfNegativeElements", () => {
   const input = [-1, -2, -3, 0, 2, 3, 4, 22];
 
   expect(countTotalNumberOfNegativeElements(input)).toBe(-6);
+});
+
+it("check countFrequenceOfEachElement", () => {
+  const data = [1, 2, 3, 4, 1, 2, 1, 1];
+  const result = new Map([
+    [1, 4],
+    [2, 2],
+    [3, 1],
+    [4, 1],
+  ]);
+  expect(countFrequenceOfEachElement(data)).toEqual(result);
 });
