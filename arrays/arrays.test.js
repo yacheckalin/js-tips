@@ -2,6 +2,7 @@ import {
   getAllNegativeElements,
   findSecondLargestElement,
   countTotalOddAndEven,
+  countTotalNumberOfNegativeElements,
 } from "./arrays";
 
 const data = [-1, 2, 3, 4, -6, -4, 0, 2];
@@ -18,4 +19,10 @@ it("check findSecondLargestElement for valid return", () => {
 it("check countTotalOddAndEven", () => {
   const input = [1, 2, 3, 4, 5, 6, 7, 2];
   expect(countTotalOddAndEven(input)).toEqual({ even: 14, odd: 16 });
+});
+
+it("check countTotalNumberOfNegativeElements", () => {
+  const input = [-1, -2, -3, 0, 2, 3, 4, 22];
+
+  expect(countTotalNumberOfNegativeElements(input)).toBe(-6);
 });

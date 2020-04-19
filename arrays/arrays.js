@@ -25,3 +25,6 @@ export const countTotalOddAndEven = (arr) => {
   }
   return { odd, even };
 };
+
+export const countTotalNumberOfNegativeElements = (arr) =>
+  arr.filter((item) => item < 0).reduce((sum, item) => sum + item);
