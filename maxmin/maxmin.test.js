@@ -5,6 +5,10 @@ it("check max1 function for valid return", () => {
   expect(max1(data)).toBe(33);
 });
 
+it("check max2 function for valid return", () => {
+  expect(max1(data)).toBe(33);
+});
+
 it("check min1 function for valid return", () => {
   expect(min1(data)).toBe(-11);
 });
