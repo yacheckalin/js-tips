@@ -10,4 +10,4 @@
 
 #### Table of Contents
 
-[Sum calculations](https://github.com/yacheckalin/js-tips/tree/master/arrays) - contains functions to calculate sum of array elements
+[Sum calculations](https://github.com/yacheckalin/js-tips/tree/master/sums) - contains functions to calculate sum of array elements
