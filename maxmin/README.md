@@ -14,3 +14,8 @@ Return the integer of max/min/average(float)
 export const max1 = (arr) =>
   arr.reduce((max, item) => (max < item ? item : max), 0);
 ```
+
+```javascript
+export const min1 = (arr) =>
+  arr.reduce((min, item) => (min > item ? item : min));
+```
