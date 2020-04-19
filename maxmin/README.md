@@ -21,5 +21,9 @@ export const min1 = (arr) =>
 ```
 
 ```javascript
+export const min2 = (arr) => Math.min(...arr);
+```
+
+```javascript
 export const max2 = (arr) => Math.max(...arr);
 ```
