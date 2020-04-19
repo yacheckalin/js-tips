@@ -13,3 +13,9 @@ export const max3 = (arr) => {
   arr.forEach((item) => (max = max < item ? item : max));
   return max;
 };
+
+export const min3 = (arr) => {
+  let min = 0;
+  arr.forEach((item) => (min = min > item ? item : min));
+  return min;
+};

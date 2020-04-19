@@ -1,4 +1,4 @@
-import { max1, min1, max2, min2, max3 } from "./maxmin";
+import { max1, min1, max2, min2, max3, min3 } from "./maxmin";
 
 const data = [0, -1, 2, 3, -11, 33];
 it("check max1 function for valid return", () => {
@@ -17,4 +17,7 @@ it("check min1 function for valid return", () => {
 });
 it("check min2 function for valid return", () => {
   expect(min2(data)).toBe(-11);
+});
+it("check min3 function for valid return", () => {
+  expect(min3(data)).toBe(-11);
 });

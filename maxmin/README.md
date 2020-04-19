@@ -35,3 +35,11 @@ export const min1 = (arr) =>
 ```javascript
 export const min2 = (arr) => Math.min(...arr);
 ```
+
+```javascript
+export const min3 = (arr) => {
+  let min = 0;
+  arr.forEach((item) => (min = min > item ? item : min));
+  return min;
+};
+```
