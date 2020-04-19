@@ -31,3 +31,13 @@ export const sum3 = (arr) => {
   return sum;
 };
 ```
+
+```javascript
+export const sum4 = (arr) => {
+  let sum = 0;
+  for (let i = 0, item; (item = arr[i++]); ) {
+    sum += item;
+  }
+  return sum;
+};
+```

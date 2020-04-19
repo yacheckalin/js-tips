@@ -14,3 +14,8 @@ it("check the sum3 with [1,2,3,4,5]", () => {
   const data = [1, 2, 3, 4, 5];
   expect(sum3(data)).toBe(15);
 });
+
+it("check the sum4 with [1,2,3,4,5]", () => {
+  const data = [1, 2, 3, 4, 5];
+  expect(sum4(data)).toBe(15);
+});
