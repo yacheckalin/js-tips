@@ -14,4 +14,4 @@
 
 [Max/Min/Average Calculations](https://github.com/yacheckalin/js-tips/tree/master/maxmin) - contains function declarations for max/min/average calculations
 
-[Find Unique Item](<(https://github.com/yacheckalin/js-tips/tree/master/unique)>) - finding unique elements in arrays
+[Find Unique Item](https://github.com/yacheckalin/js-tips/tree/master/unique) - finding unique elements in arrays
