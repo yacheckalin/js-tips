@@ -1,4 +1,4 @@
-import { unique1, unique2 } from "./unique";
+import { unique1, unique2, unique3 } from "./unique";
 
 it("function return unique1 values from array", () => {
   const data = [1, 2, 2, 2, 3, 3, 1];
@@ -7,4 +7,8 @@ it("function return unique1 values from array", () => {
 it("function return unique2 values from array", () => {
   const data = [1, 2, 2, 2, 3, 3, 1];
   expect(unique2(data)).toEqual([1, 2, 3]);
+});
+it("function return unique3 values from array", () => {
+  const data = [1, 2, 2, 2, 3, 3, 1];
+  expect(unique3(data)).toEqual([1, 2, 3]);
 });

@@ -23,3 +23,15 @@ export const unique2 = (arr) => {
   return unique;
 };
 ```
+
+```javascript
+export const unique3 = (arr) => {
+  let result = new Map();
+  for (const item of arr) {
+    if (!result.has(item)) {
+      result.set(item, item);
+    }
+  }
+  return Array.from(result.values());
+};
+```
