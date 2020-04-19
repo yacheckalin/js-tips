@@ -48,3 +48,7 @@ export const min3 = (arr) => {
 export const avg = (arr) =>
   arr.reduce((sum, item) => sum + item, 0) / arr.length;
 ```
+
+```javascript
+export const avg2 = (arr) => Math.avg(...arr);
+```
