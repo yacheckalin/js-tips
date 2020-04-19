@@ -20,6 +20,14 @@ export const max2 = (arr) => Math.max(...arr);
 ```
 
 ```javascript
+export const max3 = (arr) => {
+  let max = 0;
+  arr.forEach((item) => (max = max < item ? item : max));
+  return max;
+};
+```
+
+```javascript
 export const min1 = (arr) =>
   arr.reduce((min, item) => (min > item ? item : min));
 ```
