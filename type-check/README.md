@@ -13,3 +13,10 @@ export const check = (obj) => {
   return `data type: ${typeof obj}`;
 };
 ```
+
+### Function return any type of [Null|Undefined|Number|BigInt|String|Array|Object|Function|Map|Set]
+
+```javascript
+export const typeCheck = (obj) =>
+  Object.prototype.toString.call(obj).match(/\[object (\w+?)\]/is)[1];
+```

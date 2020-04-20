@@ -9,3 +9,6 @@ export const check = (obj) => {
   }
   return `data type: ${typeof obj}`;
 };
+
+export const typeCheck = (obj) =>
+  Object.prototype.toString.call(obj).match(/\[object (\w+?)\]/is)[1];
