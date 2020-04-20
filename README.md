@@ -17,3 +17,5 @@
 [Find Unique Item](https://github.com/yacheckalin/js-tips/tree/master/unique) - finding unique elements in arrays
 
 [Arrays exercises](https://github.com/yacheckalin/js-tips/tree/master/arrays) - programs with arrays
+
+[Type checking](https://github.com/yacheckalin/js-tips/tree/master/type-check) - type checking
