@@ -19,3 +19,5 @@
 [Arrays exercises](https://github.com/yacheckalin/js-tips/tree/master/arrays) - programs with arrays
 
 [Type checking](https://github.com/yacheckalin/js-tips/tree/master/type-check) - type checking
+
+[Validations](https://github.com/yacheckalin/js-tips/tree/master/validations) - validations
